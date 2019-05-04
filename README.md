@@ -24,7 +24,7 @@ Or install it using "brew", "apt", "yum" or manually from https://aws.amazon.com
 
 - Previous steps, from your workstation:
 ```
-git clone https://github.com/Alfresco/aws-cis-security-benchmark
+git clone https://github.com/mberger/aws-cis-security-benchmark
 cd aws-cis-security-benchmark
 ```
 
