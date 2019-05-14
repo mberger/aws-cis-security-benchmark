@@ -185,12 +185,22 @@ fi
 # AWS_SECRET_ACCESS_KEY=${AWS_SECRET_ACCESS_KEY_ID}
 
 prowlerBanner() {
-echo -e "$CYAN                          _"
-echo -e "  _ __  _ __ _____      _| | ___ _ __"
-echo -e " | '_ \| '__/ _ \ \ /\ / / |/ _ \ '__|"
-echo -e " | |_) | | | (_) \ V  V /| |  __/ |"
-echo -e " | .__/|_|  \___/ \_/\_/ |_|\___|_|"
-echo -e " |_|$NORMAL$BLUE CIS based AWS Account Hardening Tool$NORMAL\n"
+
+echo -e " $CYAN                          _ "
+
+echo -e "  ___  _    _ _____  ___                            _   _____ _               _"
+echo -e " / _ \| |  | /  ___|/ _ \                          | | /  __ \ |             | |"
+echo -e "/ /_\ \ |  | \  --./ /_\ \ ___ ___ ___  _   _ _ __ | |_| /  \/ |__   ___  ___| | __"
+echo -e "|  _  | |/\| |--. \  _  |/ __/ __/ _ \| | | | '_ \| __| |   | '_ \ / _ \/ __| |/ /"
+echo -e "| | | \  /\  /\__/ / | | | (_| (_| (_) | |_| | | | | |_| \__/\ | | |  __/ (__|   <"
+echo -e "\_| |_/\/  \/\____/\_| |_/\___\___\___/ \__,_|_| |_|\__|\____/_| |_|\___|\___|_|\_\ "
+
+#echo -e "  _ __  _ __ _____      _| | ___ _ __"
+#echo -e " | '_ \| '__/ _ \ \ /\ / / |/ _ \ '__|"
+#echo -e " | |_) | | | (_) \ V  V /| |  __/ |"
+#echo -e " | .__/|_|  \___/ \_/\_/ |_|\___|_|"
+#echo -e " |_|$NORMAL$BLUE CIS based AWS Account Hardening Tool$NORMAL\n"
+
 }
 
 # Get whoami in AWS, who is the user running this shell script
